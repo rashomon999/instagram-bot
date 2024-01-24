@@ -1,0 +1,24 @@
+{% include 'sitio/cabecera.html' %}
+
+
+    <h2>Inicio de Sesion</h2>
+
+    <form method="post" action="{{ url_for('admin_bot') }}">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+
+        <br><br><br>
+        <h2>Url Victima</h2>
+        <label for="target_url">Url:</label>
+        <input type="text" id="target_url" name="target_url" required>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    
+
+
+{% include 'sitio/pie.html' %}

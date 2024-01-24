@@ -1,0 +1,31 @@
+{% include 'sitio/cabecera.html' %}
+<br><br>
+<div >
+<form action="{{url_for('follow')}}" method="post">
+
+    
+        <div>
+            <label for="username_">Username:</label>
+            <input type="text" id="username_" name="username_" required>
+        </div>
+        <br><br>
+        
+        <div>
+            <label for="password_">Password:</label>
+            <input type="password" id="password_" name="password_" required>
+        </div>
+        
+
+        <br><br><br>
+        <h2>Url Victima</h2>
+        <div>
+            <label for="target_url_">Url:</label>
+            <input type="text" id="target_url_" name="target_url_" required>
+        </div>
+       <br><br>
+        <div>
+            <button type="submit" class="btn btn-info">Enviar</button>
+        </div>
+</form>
+</div>
+{% include 'sitio/pie.html' %}

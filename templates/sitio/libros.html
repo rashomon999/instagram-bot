@@ -1,0 +1,31 @@
+{% include 'sitio/cabecera.html' %}
+
+<div class="container">
+
+    <br><br>
+    <div class="row">
+        {% for libro in libros%}
+        <div class="col-md-3">
+            <div class="card">
+                <img class="card-img-top" src="/img/{{libro[2]}}" alt="Title" height="200" />
+                <div class="card-body">
+                    <h4 class="card-title">{{libro[1]}}</h4>
+                    <p class="card-text">
+                        <a  name=""
+                            id=""
+                            class="btn btn-success"
+                            href="{{libro[3]}}"
+                            role="button">Descargar</a>   
+                    </p>
+                </div>
+            </div> 
+        </div>
+        {% endfor %}
+        <br>
+        
+        
+    </div>
+
+
+</div>
+{% include 'sitio/pie.html' %}
