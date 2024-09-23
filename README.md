@@ -1,1 +1,1 @@
-Se solucionaran problemas con Chrome driver (actualizacion...)
+Se solucionaran problemas con Chrome driver (actualizacion...), ademas de una version mucho mas reciente que soluciona el problema de cuando es una cuenta privada y tiempo de recorrido (menos probabilidad de deteccion)
