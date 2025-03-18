@@ -1,2 +1,2 @@
-luislopez_1024
-barcelona
+usuario
+contraseña
